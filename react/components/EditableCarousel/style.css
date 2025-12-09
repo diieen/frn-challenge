@@ -1,0 +1,39 @@
+.carousel {
+  position: relative;
+}
+
+.card {
+  min-height: 100%;
+}
+
+.image {
+  display: block;
+  max-height: 240px;
+  object-fit: cover;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.carousel :global(.splide__arrow) {
+  background: transparent;
+  border: none;
+}
+
+.carousel :global(.splide__pagination__page) {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  margin: 0 4px;
+}
+
+.carousel :global(.splide__pagination__page.is-active) {
+  background: #0f3e99;
+  border-color: #0f3e99;
+}

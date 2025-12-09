@@ -1,0 +1,13 @@
+.flex {
+    &Row {
+        &--lp-garantia {
+            &__section {
+                margin-bottom: 80px;
+
+                @media (max-width: 1024px) {
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}

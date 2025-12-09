@@ -1,0 +1,17 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
+    "react": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "@types/react": "^18.3.12",
+    "@vtex/tsconfig": "^0.4.4",
+    "graphql": "^14.6.0",
+    "typescript": "3.9.7"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "experimental__visibility-layout#lp-garantia-presentation": {
+    "title": "Visibilidade: Apresentação da garantia",
+    "children": ["flex-layout.row#lp-garantia-presentation"]
+  },
+
+  "flex-layout.row#lp-garantia-presentation": {
+    "title": "Garantia LP",
+    "children": ["flex-layout.col#lp-garantia-presentation"],
+    "props": {
+      "blockClass": ["lp-garantia__row", "lp-garantia__section"]
+    }
+  },
+
+  "flex-layout.col#lp-garantia-presentation": {
+    "children": [
+      "rich-text#lp-garantia-title",
+      "rich-text#lp-garantia-description"
+    ],
+    "props": {
+      "blockClass": "lp-garantia__col",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#lp-garantia-title": {
+    "title": "Título",
+    "props": {
+      "text": "Garantia e Suporte",
+      "font": "t-heading-1",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "lp-garantia__title"
+    }
+  },
+
+  "rich-text#lp-garantia-description": {
+    "title": "Descrição",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum, massa non cursus feugiat, justo enim porttitor arcu, at fermentum nisl eros sed nisi. Praesent ornare, ipsum nec ultricies molestie, urna turpis porttitor magna, nec egestas velit lectus vitae arcu. Integer placerat lectus id diam egestas, id fringilla nibh luctus. Proin posuere viverra velit, sit amet lacinia risus sagittis et. Aliquam non turpis at enim scelerisque cursus. Cras vitae sapien ut ante dapibus varius. Phasellus commodo ultricies velit, nec varius neque euismod ac. In eget convallis tortor. Sed a lectus non justo mattis euismod sed id nibh. Sed pharetra, sapien nec congue consequat, nisi nisl facilisis lorem, ac finibus lacus augue eget justo. Donec et lorem viverra, lacinia purus sed, posuere felis. Nullam tristique sem non eros imperdiet, a venenatis ipsum ultricies. Ut tincidunt nibh sit amet urna suscipit, a blandit augue interdum. Pellentesque venenatis, ligula non sodales venenatis, justo velit posuere ligula, ac sagittis metus urna et augue. Vivamus ac urna suscipit, feugiat elit non, pulvinar ipsum. Sed at ultrices turpis, vitae molestie risus. Vestibulum a scelerisque elit, vitae commodo lacus. Maecenas aliquam, odio at consequat condimentum, nulla nunc malesuada mi, sit amet porta mi turpis sed nisl. Curabitur efficitur ultrices erat, a varius nulla vulputate sed. Mauris ut nisi id lectus semper pretium.",
+      "font": "t-body",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "lp-garantia__description"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+    "experimental__visibility-layout#lp-garantia-carousel": {
+        "title": "Visibilidade: Carrossel de serviços",
+        "children": ["flex-layout.row#lp-garantia-carousel"]
+    },
+
+    "flex-layout.row#lp-garantia-carousel": {
+        "title": "Carrossel de serviços",
+        "children": ["editable-carousel#lp-garantia-cards"],
+        "props": {
+            "blockClass": ["lp-garantia__carousel", "lp-garantia__section"]
+        }
+    },
+
+    "editable-carousel#lp-garantia-cards": {
+        "props": {
+            "items": [
+                {
+                    "image": "https://dummyimage.com/800x500",
+                    "imageAlt": "Garantia estendida",
+                    "title": "Garantia estendida",
+                    "text": "Cobertura completa em produtos selecionados com atendimento prioritário.",
+                    "link": {
+                        "url": "#",
+                        "label": "Saiba mais",
+                        "openNewTab": true
+                    }
+                },
+                {
+                    "image": "https://dummyimage.com/800x500",
+                    "imageAlt": "Suporte dedicado",
+                    "title": "Suporte dedicado",
+                    "text": "Equipe especializada para resolver dúvidas e acompanhar solicitações.",
+                    "link": {
+                        "url": "#",
+                        "label": "Falar com especialista"
+                    }
+                },
+                {
+                    "image": "https://dummyimage.com/800x500",
+                    "imageAlt": "Cobertura nacional",
+                    "title": "Cobertura nacional",
+                    "text": "Rede autorizada em todo o país para agilizar reparos e trocas.",
+                    "link": {
+                        "url": "#",
+                        "label": "Ver rede autorizada"
+                    }
+                },
+                {
+                    "image": "https://dummyimage.com/800x500",
+                    "imageAlt": "Serviços adicionais",
+                    "title": "Serviços adicionais",
+                    "text": "Opções extras como instalação, manutenção preventiva e upgrades.",
+                    "link": {
+                        "url": "#",
+                        "label": "Conhecer serviços"
+                    }
+                },
+                {
+                    "image": "https://dummyimage.com/800x500",
+                    "imageAlt": "Atendimento 24/7",
+                    "title": "Atendimento 24/7",
+                    "text": "Suporte disponível a qualquer hora para emergências e consultas.",
+                    "link": {
+                        "url": "#",
+                        "label": "Contato imediato"
+                    }
+                }
+            ],
+            "showArrows": true,
+            "showDots": true,
+            "itemsPerPageDesktop": 3,
+            "itemsPerPageTablet": 2,
+            "itemsPerPageMobile": 1
+        }
+    }
+}

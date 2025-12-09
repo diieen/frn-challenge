@@ -1,0 +1,59 @@
+{
+  "experimental__visibility-layout#lp-garantia-hero-banner": {
+    "title": "Visibilidade: Hero Banner",
+    "children": ["flex-layout.row#lp-garantia-hero-banner"]
+  },
+
+  "flex-layout.row#lp-garantia-hero-banner": {
+    "title": "Hero Banner",
+    "children": ["list-context.image-list#lp-garantia-hero-banner"],
+    "props": {
+      "blockClass": ["lp-garantia__hero-banner", "lp-garantia__section"],
+      "fullWidth": true
+    }
+  },
+
+  "list-context.image-list#lp-garantia-hero-banner": {
+    "title": "Lista de banners",
+    "children": ["slider-layout#lp-garantia-hero-banner"],
+    "props": {
+      "images": [
+        {
+          "image": "https://dummyimage.com/1920x400",
+          "mobileImage": "https://dummyimage.com/800x600",
+          "description": "Banner 1"
+        },
+        {
+          "image": "https://dummyimage.com/1920x400",
+          "mobileImage": "https://dummyimage.com/800x600",
+          "description": "Banner 2"
+        },
+        {
+          "image": "https://dummyimage.com/1920x400",
+          "mobileImage": "https://dummyimage.com/800x600",
+          "description": "Banner 3"
+        }
+      ],
+      "blockClass": "lp-garantia__banner-list"
+    }
+  },
+
+  "slider-layout#lp-garantia-hero-banner": {
+    "title": "Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "autoplay": {
+        "timeout": 5000,
+        "pauseOnHover": true
+      },
+      "blockClass": "lp-garantia__banner-slider"
+    }
+  }
+}
