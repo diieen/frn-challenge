@@ -1,6 +1,6 @@
 .listPrice {
   color: #727273;
-  margin-bottom: 0.25rem;
+  margin-bottom: .25rem;
   font-size: 1rem;
 }
 
@@ -35,6 +35,7 @@
   border-radius: 1000px;
   align-items: center;
   display: flex;
+
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   font-size: 0.875rem;
@@ -54,7 +55,7 @@
 
 .listPrice--summary {
   margin-bottom: 0.25rem;
-  font-size: 0.875rem;
+  font-size: .875rem;
 }
 
 .installments--summary {
@@ -76,5 +77,3 @@
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
-
-/*# sourceMappingURL=vtex.product-price.css.map */

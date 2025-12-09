@@ -3,27 +3,33 @@
     height: 260px;
     width: 580px;
   }
+
   .actionsContainer--quickview {
     padding: 0 2rem 2rem 2rem;
   }
 }
+
 @media screen and (min-width: 50em) {
   .paper--quickview {
     height: 450px;
     width: 900px;
   }
 }
+
+
 @media screen and (min-width: 75em) {
   .paper--quickview {
     width: calc(100% - 4rem);
     height: auto;
   }
 }
+
 @media screen and (min-width: 82em) {
   .actionsContainer--quickview {
     padding: 0 2.5rem 2.5rem 2.5rem;
   }
 }
+
 .paper--quickview {
   min-width: 320px;
   max-width: 96rem;
@@ -58,7 +64,7 @@
 }
 
 .triggerContainer--quickview {
-  padding: 0.75rem;
+  padding: .75rem;
 }
 
 .triggerContainer {
@@ -67,7 +73,7 @@
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
   border-top-color: rgb(238, 238, 238);
-  box-shadow: -4px 0px 27px -12px rgba(0, 0, 0, 0.64);
+  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
 }
 
 .actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
@@ -81,5 +87,3 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
-
-/*# sourceMappingURL=vtex.modal-layout.css.map */

@@ -1,15 +1,4 @@
-.productBrandName--summaryListDesktop {
-  text-decoration: none;
-  font-weight: 500;
-  color: #0067C7;
-  font-size: 0.875rem;
-}
-
-.productBrandName--summaryListMobile {
-  text-decoration: none;
-  color: #0067C7;
-  font-size: 0.875rem;
-}
+@import "./search/store-components";
 
 .notificationBarContainer {
   background-color: #e6f1e6;
@@ -83,7 +72,7 @@
     padding: 140px;
   }
   .label {
-    font-size: 40px;
+     font-size: 40px;
   }
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
@@ -96,6 +85,7 @@
     max-height: 600px;
   }
 }
+
 .productImagesContainer--quickview .carouselContainer {
   justify-content: flex-start;
 }
@@ -123,5 +113,3 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
-
-/*# sourceMappingURL=vtex.store-components.css.map */

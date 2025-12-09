@@ -1,0 +1,28 @@
+{
+  "name": "frn-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sass:build": "sass styles/scss:styles/css --style=compressed",
+    "watch": "sass --watch styles/scss:styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diieen/frn-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/diieen/frn-challenge/issues"
+  },
+  "homepage": "https://github.com/diieen/frn-challenge#readme",
+  "devDependencies": {
+    "sass": "^1.95.0"
+  }
+}
