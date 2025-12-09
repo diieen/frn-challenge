@@ -1,11 +1,11 @@
 {
   "experimental__visibility-layout#lp-garantia-presentation": {
-    "title": "Visibilidade: Apresentação da garantia",
+    "title": "Visibilidade: Textos",
     "children": ["flex-layout.row#lp-garantia-presentation"]
   },
 
   "flex-layout.row#lp-garantia-presentation": {
-    "title": "Garantia LP",
+    "title": "Textos",
     "children": ["flex-layout.col#lp-garantia-presentation"],
     "props": {
       "blockClass": ["lp-garantia__row", "lp-garantia__section"]

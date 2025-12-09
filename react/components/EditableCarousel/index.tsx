@@ -19,17 +19,17 @@ const EditableCarousel: StorefrontFunctionComponent<EditableCarouselProps> = ({
   const options = useMemo(
     () => ({
       type: 'slide',
-      perPage: itemsPerPageDesktop,
+      perPage: Math.max(itemsPerPageDesktop || 1, 1),
       perMove: 1,
       gap: '1rem',
       arrows: showArrows,
       pagination: showDots,
       breakpoints: {
         1024: {
-          perPage: itemsPerPageTablet,
+          perPage: Math.max(itemsPerPageTablet || 1, 1),
         },
         768: {
-          perPage: itemsPerPageMobile,
+          perPage: Math.max(itemsPerPageMobile || 1, 1),
         },
       },
     }),

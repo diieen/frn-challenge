@@ -6,13 +6,13 @@
 
     "flex-layout.row#lp-garantia-carousel": {
         "title": "Carrossel de serviços",
-        "children": ["editable-carousel#lp-garantia-cards"],
+        "children": ["editable-carousel#lp-garantia-carousel"],
         "props": {
             "blockClass": ["lp-garantia__carousel", "lp-garantia__section"]
         }
     },
 
-    "editable-carousel#lp-garantia-cards": {
+    "editable-carousel#lp-garantia-carousel": {
         "props": {
             "items": [
                 {
