@@ -37,4 +37,4 @@ lib
 react/package-lock.json
 
 # Generated files
-*.css*
+styles/css/**
