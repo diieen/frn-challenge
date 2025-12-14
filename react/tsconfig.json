@@ -10,7 +10,9 @@
     "module": "esnext",
     "moduleResolution": "node",
     "target": "es2017",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   },
   "include": [
     "./typings/*.d.ts",

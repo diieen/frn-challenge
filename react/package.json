@@ -9,9 +9,8 @@
   },
   "devDependencies": {
     "@types/node": "^13.9.8",
-    "@types/react": "^18.3.12",
+    "@types/react": "^19.2.0",
     "@vtex/tsconfig": "^0.4.4",
-    "graphql": "^14.6.0",
     "typescript": "3.9.7"
   }
 }

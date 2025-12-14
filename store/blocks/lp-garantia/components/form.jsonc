@@ -1,0 +1,17 @@
+{
+    "experimental__visibility-layout#lp-garantia-form": {
+        "title": "Visibilidade: Formulário",
+        "children": ["flex-layout.row#lp-garantia-form"],
+        "props": {
+            "blockClass": "lp-garantia-form"
+        }
+    },
+
+    "flex-layout.row#lp-garantia-form": {
+        "title": "Formulário",
+        "children": ["product-report-form"],
+        "props": {
+            "blockClass": "lp-garantia-form__row"
+        }
+    }
+}

@@ -1,5 +1,8 @@
 {
     "editable-carousel": {
         "component": "EditableCarousel"
+    },
+    "product-report-form": {
+        "component": "ProductReportForm"
     }
 }

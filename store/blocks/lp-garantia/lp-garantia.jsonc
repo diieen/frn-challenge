@@ -3,6 +3,7 @@
         "blocks": [
             "experimental__visibility-layout#lp-garantia-hero-banner", // hero-banner.jsonc
             "experimental__visibility-layout#lp-garantia-presentation", // presentation.jsonc
+            "experimental__visibility-layout#lp-garantia-form", // form.jsonc
             "experimental__visibility-layout#lp-garantia-carousel" // carousel.jsonc
         ]
     }
